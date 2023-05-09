@@ -32,12 +32,10 @@ public class Game {
 	private String longDescription;
 	
 	public Game() {
-		super();
 	}
 
 	public Game(Long id, String title, Integer year, String genre, String platforms, Double score, String imgUrl,
 			String shortDescription, String longDescription) {
-		super();
 		this.id = id;
 		this.title = title;
 		this.year = year;
